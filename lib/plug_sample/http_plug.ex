@@ -1,4 +1,4 @@
-defmodule PlugSample.MyPlug do
+defmodule PlugSample.HttpPlug do
   import Plug.Conn
 
   def init(options) do

@@ -11,14 +11,14 @@ defmodule PlugSample.Mixfile do
   end
 
   def application do
-    [applications: [:logger],
+    [applications: [:logger, :cowboy, :plug],
      mod: {PlugSample, []}]
   end
 
   defp deps do
     [
       {:cowboy, "~> 1.0.0"},
-      {:plug, "~> 1.1"}
+      {:plug, "~> 1.1.6"}
     ]
   end
 end
