@@ -18,7 +18,7 @@ defmodule PlugSample.Mixfile do
   defp deps do
     [
       {:cowboy, "~> 1.0.0"},
-      {:plug, "~> 1.1.6"}
+      {:plug, "~> 1.2.2"}
     ]
   end
 end
